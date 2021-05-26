@@ -137,8 +137,8 @@ include_directories(
 add_executable(hw6 src/hw6.cpp)
 target_link_libraries(hw6 ${catkin_LIBRARIES})
 
-add_executable(hw6_sol src/hw6_sol.cpp)
-target_link_libraries(hw6_sol ${catkin_LIBRARIES})
+#add_executable(hw6_sol src/hw6_sol.cpp)
+#target_link_libraries(hw6_sol ${catkin_LIBRARIES})
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
